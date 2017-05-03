@@ -6,13 +6,13 @@
 *	Recommended: add description of your code.
 */
 
-int getSum(int myArray[]);
-int getSumOfSquares(int myArray[]);
-void printAsChars(int myArray[]);
-double getAverage(int myArray[]);
-int subtractAllValues(int myArray[]);
-float invertAllValues(int myArray[] );
-void printGroupMemberNames();
+int getSum(int myArray[]); // Liza Song
+int getSumOfSquares(int myArray[]); // Reaksmey Kongkea Chea
+void printAsChars(int myArray[]); // Reaksmey Kongkea Chea
+double getAverage(int myArray[]); // Phyrum Rithchea
+int subtractAllValues(int myArray[]); // Borey Cheng
+float invertAllValues(int myArray[] ); // Borey Cheng
+void printGroupMemberNames(); // Phyrum Rithchea
 
 int main(void) {
 	printGroupMemberNames();
