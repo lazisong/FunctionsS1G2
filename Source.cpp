@@ -67,7 +67,7 @@ int getSumOfSquares(int myArray[]) {
 	}
 	return result;
 }
-// Reaksmey Kongkea Chea
+//kongkea
 void printAsChars(int myArray[]) {
 	for (int i = 0; i < 500; i++) {
 		printf("%c\n ", myArray[i]);
