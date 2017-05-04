@@ -47,9 +47,9 @@ float invertAllValues(int myArray[] ){
 	int i;
 	float temp;
 	for ( i=0; i < 500/2; i++){
-	(float)	temp=myArray[i];
-	(float)	myArray[i]=myArray[499-i];
-	(float)	myArray[499-i]=temp;
+	temp=(float)myArray[i];
+	myArray[i]=(float)myArray[499-i];
+	myArray[499-i]=temp;
 	}
 	for ( i=0; i < 500; i++){
 		printf("%f ", myArray[i]);
