@@ -46,16 +46,19 @@ int subtractAllValues(int myArray[]){
 }
 // BOREY CHENG
 float invertAllValues(int myArray[] ){
-	int i, temp;
+	int i, temp, tm[500];
+	for (i = 0; i < 500; i++){
+		tm[i]=myArray[i];
+	}
 	for ( i=0; i < 500/2; i++)
 	{
-		temp=myArray[i];
-		myArray[i] =myArray[500-i];
-		myArray[500-i] = temp;
+		temp=tm[i];
+		tm[i] =tm[499-i];
+		tm[499-i] = temp;
 	}
 	for ( i=0; i < 500; i++)
 	{
-		printf("%f ", (float)myArray[i]);
+		printf("%f ", (float)tm[i]);
 	}
 	return 0;
 }
