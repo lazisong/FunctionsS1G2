@@ -17,10 +17,12 @@ void printGroupMemberNames(); // Phyrum Rithchea
 int main(void) {
 	printGroupMemberNames();
 
-	int row[500];
-	for (int i = 0; i < 500; i++)
-		row[i] = i;
-
+	int row[500],i;
+	for(i=0; i < 500; i++){
+		row[i]=i;
+	}
+	subtractAllValues(row);
+	invertAllValues(row);
 	return 1;
 }
 
@@ -31,7 +33,7 @@ void printGroupMemberNames() {
 	printf("James Bond\n Brad Pitt/n");
 
 }
-
+// BOREY CHENG
 int subtractAllValues(int myArray[]){
 	int i;
 	for ( i=0 ; i < 500; i++){
@@ -42,16 +44,17 @@ int subtractAllValues(int myArray[]){
 	}
 	return 0;
 }
-
+// BOREY CHENG
 float invertAllValues(int myArray[] ){
-	int i;
-	int temp;
-	for ( i=0; i < 500/2; i++){
-	temp=myArray[i];
-	myArray[i]=myArray[499-i];
-	myArray[499-i]=temp;
+	int i, temp;
+	for ( i=0; i < 500/2; i++)
+	{
+		temp=myArray[i];
+		myArray[i] =myArray[500-i];
+		myArray[500-i] = temp;
 	}
-	for ( i=0; i < 500; i++){
+	for ( i=0; i < 500; i++)
+	{
 		printf("%f ", (float)myArray[i]);
 	}
 	return 0;
