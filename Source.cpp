@@ -45,14 +45,14 @@ int subtractAllValues(int myArray[]){
 
 float invertAllValues(int myArray[] ){
 	int i;
-	float temp;
+	int temp;
 	for ( i=0; i < 500/2; i++){
-	temp=(float)myArray[i];
-	myArray[i]=(float)myArray[499-i];
+	temp=myArray[i];
+	myArray[i]=myArray[499-i];
 	myArray[499-i]=temp;
 	}
 	for ( i=0; i < 500; i++){
-		printf("%f ", myArray[i]);
+		printf("%f ", (float)myArray[i]);
 	}
 	return 0;
 }
