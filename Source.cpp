@@ -56,3 +56,20 @@ float invertAllValues(int myArray[] ){
 	}
 	return 0;
 }
+
+//kongkea
+int getSumOfSquares(int myArray[]) {
+	int n = 1;
+	int result = 0;
+	for (int i = 0; i < 500; i++) {
+		n = myArray[i] * myArray[i];
+		result += n;
+	}
+	return result;
+}
+// Reaksmey Kongkea Chea
+void printAsChars(int myArray[]) {
+	for (int i = 0; i < 500; i++) {
+		printf("%c\n ", myArray[i]);
+	}
+}
