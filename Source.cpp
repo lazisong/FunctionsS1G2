@@ -21,7 +21,9 @@ int main(void) {
 	for(i=0; i < 500; i++){
 		row[i]=i;
 	}
+	printf("\nSubtract all the elements with -1:\n"); //working
 	subtractAllValues(row);
+	printf("\nInvert all the value:\n");   //working
 	invertAllValues(row);
 	return 1;
 }
