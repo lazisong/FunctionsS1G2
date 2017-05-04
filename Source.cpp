@@ -57,7 +57,7 @@ float invertAllValues(int myArray[] ){
 	return 0;
 }
 
-//kongkea
+// Reaksmey Kongkea Chea
 int getSumOfSquares(int myArray[]) {
 	int n = 1;
 	int result = 0;
@@ -67,7 +67,7 @@ int getSumOfSquares(int myArray[]) {
 	}
 	return result;
 }
-//kongkea
+// Reaksmey Kongkea Chea
 void printAsChars(int myArray[]) {
 	for (int i = 0; i < 500; i++) {
 		printf("%c\n ", myArray[i]);
