@@ -81,3 +81,11 @@ void printAsChars(int myArray[]) {
 		printf("%c\n ", myArray[i]);
 	}
 }
+
+//Phyrum Rithchea
+/* Print Group Member names */
+int main(void)
+{
+  printf("Phyrum Rithchea\nLiza Song\nReaksmey Kongkea Chea\nBorey Cheng\n"); // Print member names by starting with a new line
+  return 0;
+}
