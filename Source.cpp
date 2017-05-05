@@ -81,7 +81,7 @@ void printAsChars(int myArray[]) {
 		printf("%c\n ", myArray[i]);
 	}
 }
-// lYZA SONG
+// lIZA SONG
 int getSum(int myArray[]){
     int getSum = 0, i;
 	for (i = 0; i < 500; i++) {
