@@ -89,3 +89,17 @@ int main(void)
   printf("Phyrum Rithchea\nLiza Song\nReaksmey Kongkea Chea\nBorey Cheng\n"); // Print member names by starting with a new line
   return 0;
 }
+
+//Phyrum Rithchea
+/* This code is used to find the average of the array (myArray)*/
+double getAverage(int myArray[]);
+{
+  float getAverage; // Average is sometimes float number.
+  int sum = 0, n, element;
+  for (element = 0, element < n, ++element)
+  {
+    sum += myArray[element];
+  }
+  getAverage = sum / n;
+  return getAverage;
+}
